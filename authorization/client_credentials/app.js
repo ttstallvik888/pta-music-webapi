@@ -7,8 +7,8 @@
  * https://developer.spotify.com/documentation/web-api/tutorials/client-credentials-flow
  */
 
-const client_id = '12e92665a2a147ee93149cd17f156cea'; 
-const client_secret = '7de45cab4a024c1dbefbd58d20185013';
+const client_id = 
+const client_secret = 
 
 async function getToken() {
   const response = await fetch('https://accounts.spotify.com/api/token', {
